@@ -1,0 +1,11 @@
+framework module EvenOrOdd {
+  umbrella header "EvenOrOdd.h"
+
+  export *
+  module * { export * }
+}
+
+module EvenOrOdd.Swift {
+  header "EvenOrOdd-Swift.h"
+  requires objc
+}

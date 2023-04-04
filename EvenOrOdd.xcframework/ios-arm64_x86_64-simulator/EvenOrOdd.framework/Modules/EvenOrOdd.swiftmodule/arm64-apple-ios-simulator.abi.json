@@ -1,0 +1,158 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EvenOrOdd",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "EvenOrOdd"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EvenOrOdd",
+        "printedName": "EvenOrOdd",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isEven",
+            "printedName": "isEven(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9EvenOrOddAAV02isA0ySbxSZRzlFZ",
+            "mangledName": "$s9EvenOrOddAAV02isA0ySbxSZRzlFZ",
+            "moduleName": "EvenOrOdd",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.SignedInteger>",
+            "sugared_genericSig": "<N where N : Swift.SignedInteger>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isOdd",
+            "printedName": "isOdd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9EvenOrOddAAV02isC0ySbxSZRzlFZ",
+            "mangledName": "$s9EvenOrOddAAV02isC0ySbxSZRzlFZ",
+            "moduleName": "EvenOrOdd",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.SignedInteger>",
+            "sugared_genericSig": "<N where N : Swift.SignedInteger>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isEven",
+            "printedName": "isEven(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9EvenOrOddAAV02isA0ySbxSURzlFZ",
+            "mangledName": "$s9EvenOrOddAAV02isA0ySbxSURzlFZ",
+            "moduleName": "EvenOrOdd",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.UnsignedInteger>",
+            "sugared_genericSig": "<N where N : Swift.UnsignedInteger>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isOdd",
+            "printedName": "isOdd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9EvenOrOddAAV02isC0ySbxSURzlFZ",
+            "mangledName": "$s9EvenOrOddAAV02isC0ySbxSURzlFZ",
+            "moduleName": "EvenOrOdd",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.UnsignedInteger>",
+            "sugared_genericSig": "<N where N : Swift.UnsignedInteger>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9EvenOrOddAAV",
+        "mangledName": "$s9EvenOrOddAAV",
+        "moduleName": "EvenOrOdd",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
